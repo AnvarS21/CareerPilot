@@ -1,6 +1,6 @@
-import requests
+from typing import Dict, List
 
-from typing import List, Dict
+import requests
 
 from job.constants import HEAD_HUNTER_URL, KYRGYZSTAN_AREA_CODE
 from job.parser.base_parser import BaseParser

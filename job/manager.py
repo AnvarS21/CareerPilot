@@ -1,6 +1,7 @@
-import sqlite3
-from typing import List, Dict, Tuple, Any
 import logging
+import sqlite3
+from typing import Any, Dict, List, Tuple
+
 
 class JobManager:
     def __init__(self, db: sqlite3):

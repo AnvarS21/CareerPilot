@@ -1,6 +1,6 @@
-from bs4 import BeautifulSoup
 import lxml
 import requests
+from bs4 import BeautifulSoup
 
 from job.constants import DEV_KG_URL
 from job.parser.base_parser import BaseParser

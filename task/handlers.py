@@ -8,10 +8,11 @@ from apscheduler.triggers.date import DateTrigger
 from telegram import Update
 from telegram.error import BadRequest
 from telegram.ext import ContextTypes, ConversationHandler
-from telegram_bot_calendar import DetailedTelegramCalendar, LSTEP
+from telegram_bot_calendar import LSTEP, DetailedTelegramCalendar
 
 from core.settings import BOT_TOKEN
-from task.keyboard import start_keyboard, tasks_list_datetime, tasks_keyboard, task_keyboard
+from task.keyboard import (start_keyboard, task_keyboard, tasks_keyboard,
+                           tasks_list_datetime)
 
 scheduler = AsyncIOScheduler()
 

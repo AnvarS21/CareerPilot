@@ -1,5 +1,7 @@
 import sqlite3
+
 from core.settings import DATABASE
+
 
 class SqliteDB:
     """Обеспечивает подключение к базе данных Sqlite3"""

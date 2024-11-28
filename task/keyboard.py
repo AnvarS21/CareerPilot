@@ -1,4 +1,5 @@
-from telegram import ReplyKeyboardMarkup, InlineKeyboardButton, InlineKeyboardMarkup, KeyboardButton
+from telegram import (InlineKeyboardButton, InlineKeyboardMarkup,
+                      KeyboardButton, ReplyKeyboardMarkup)
 
 
 async def start_keyboard():
